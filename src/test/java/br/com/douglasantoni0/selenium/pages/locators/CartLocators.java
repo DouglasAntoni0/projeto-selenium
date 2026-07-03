@@ -15,8 +15,9 @@ public final class CartLocators {
     public static final By TERMS_OF_SERVICE = By.id("termsofservice");
     public static final By CHECKOUT_BUTTON = By.id("checkout");
     public static final By TERMS_WARNING_DIALOG = By.cssSelector(".ui-dialog, #terms-of-service-warning-box");
-    public static final By ORDER_TOTAL = By.cssSelector(".cart-total .order-total .product-price");
+    public static final By ORDER_TOTAL = By.cssSelector(".cart-total .product-price.order-total");
 
     private CartLocators() {
     }
 }
+

@@ -29,7 +29,7 @@ public final class CheckoutLocators {
 
     public static final By CONFIRM_ORDER_STEP = By.id("checkout-step-confirm-order");
     public static final By CONFIRM_PRODUCT_NAME = By.cssSelector("#checkout-step-confirm-order .cart .product-name");
-    public static final By CONFIRM_ORDER_TOTAL = By.cssSelector("#checkout-step-confirm-order .cart-total .order-total .product-price");
+    public static final By CONFIRM_ORDER_TOTAL = By.cssSelector("#checkout-step-confirm-order .cart-total .product-price.order-total");
     public static final By CONFIRM_ORDER_CONTINUE = By.cssSelector("#confirm-order-buttons-container input.button-1");
 
     public static final By ORDER_COMPLETED = By.cssSelector(".order-completed");
@@ -39,3 +39,4 @@ public final class CheckoutLocators {
     private CheckoutLocators() {
     }
 }
+
