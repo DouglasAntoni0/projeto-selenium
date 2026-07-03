@@ -8,3 +8,6 @@ screenshots/
 *.log
 .DS_Store
 Thumbs.db
+
+work/
+outputs/

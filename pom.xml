@@ -18,7 +18,7 @@
         <junit.jupiter.version>5.11.4</junit.jupiter.version>
         <assertj.version>3.27.3</assertj.version>
         <datafaker.version>2.4.2</datafaker.version>
-        <allure.version>2.29.1</allure.version>
+        <allure.version>2.35.1</allure.version>
 
         <maven.compiler.plugin.version>3.13.0</maven.compiler.plugin.version>
         <maven.surefire.plugin.version>3.5.2</maven.surefire.plugin.version>
@@ -96,3 +96,4 @@
         </plugins>
     </build>
 </project>
+

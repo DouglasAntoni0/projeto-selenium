@@ -31,7 +31,7 @@ public class HeaderComponent extends BasePage {
     }
 
     public CartPage goToCart() {
-        click(HeaderLocators.CART_LINK);
+        openPath("/cart");
         return new CartPage(driver, config);
     }
 
@@ -62,3 +62,4 @@ public class HeaderComponent extends BasePage {
         return digitsOnly.isBlank() ? 0 : Integer.parseInt(digitsOnly);
     }
 }
+
