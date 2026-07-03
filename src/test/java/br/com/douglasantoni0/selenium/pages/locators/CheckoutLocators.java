@@ -33,10 +33,11 @@ public final class CheckoutLocators {
     public static final By CONFIRM_ORDER_CONTINUE = By.cssSelector("#confirm-order-buttons-container input.button-1");
 
     public static final By ORDER_COMPLETED = By.cssSelector(".order-completed");
-    public static final By ORDER_NUMBER = By.cssSelector(".order-number");
+    public static final By ORDER_NUMBER = By.cssSelector(".order-completed .details li:first-child");
     public static final By CONTINUE_AFTER_ORDER = By.cssSelector(".order-completed-continue-button");
 
     private CheckoutLocators() {
     }
 }
+
 
